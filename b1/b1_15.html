@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+
+    function ktnt(a){
+        if(a<2){
+            return false
+        }
+        else{
+            for (let i=2;i<=Math.sqrt(a);i++){
+                if(a%i===0){
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+    let b= parseInt(prompt("nhap 1 so :"));
+    if(ktnt(b)){
+        console.log(b+' la so nguyen to');
+    }
+    else{
+        console.log(b+' k so nguyen to;')
+    }
+</script>

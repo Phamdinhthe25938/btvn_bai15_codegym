@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button onclick="bai1()">Bai 1</button>
+    <button onclick="bai2()">Bai 2</button>
+   <button onclick="bai3()">Bai 3</button>
+    <button onclick="bai4()">Bai 4</button>
+    <button onclick="bai5()">Bai 5</button>
+    <button onclick="bai6()">Bai 6</button>
+    <button onclick="bai7()">Bai 7</button>
+    <button onclick="bai8()">Bai 8</button>
+    <button onclick="bai9()">Bai 9</button>
+</body>
+</html>
+<script>
+    function resultBai1(b){
+        return b*b;
+    }
+    function bai1(){
+        let a= parseInt(prompt('nhap so a:'));
+        let result = resultBai1(a)
+        console.log(result)
+    }
+    function resultBai2(a){
+           let cv = parseFloat(2*a*Math.PI);
+           let s = parseFloat(a*a*Math.PI);
+           console.log('chu vi la:'+cv);
+           console.log('dien tich la:'+s)
+    }
+    function  bai2(){
+        let r= parseInt(prompt('nhap ban kinh r:'));
+         resultBai2(r);
+    }
+    function resultBai3(b){
+        let kq=1
+        for (let i =1;i<=b;i++){
+            kq *=i;
+        }
+        return kq;
+    }
+    function bai3(){
+        let a = parseInt(prompt('nhap 1 so a:'));
+        resultBai3(a)
+        let result = resultBai3(a);
+        console.log(result)
+    }
+    function resultBai4(b){
+        if(b===Number(b)){
+            return true;
+        }
+       return false;
+    }
+    function bai4(){
+        let a = parseInt(prompt('nhap 1 so a:'));
+        resultBai4(a)
+        console.log(resultBai4(a));
+    }
+    function resultBai5(i,j,k){
+        let array= [i,j,k];
+        alert(array)
+        let min=array[0];
+        for (let n=1;i<array.length;n++){
+            if(array[n]<min){
+                min=array[n];
+            }
+        }
+        return min;
+    }
+    function bai5(){
+        let a = parseInt(prompt('nhap 1 so a:'));
+        let b = parseInt(prompt('nhap 1 so b:'));
+        let c = parseInt(prompt('nhap 1 so c:'));
+        let kqBai5= resultBai5(a,b,c);
+        console.log('min la:',kqBai5)
+    }
+    function resultBai6(b){
+        if(b>0){
+            return true;
+        }
+        return false;
+    }
+    function bai6(){
+        let a = parseInt(prompt('nhap 1 so a:'));
+        resultBai6(a)
+        console.log(resultBai6(a));
+    }
+    function resultBai7(m,n){
+        let array =[m,n]
+        let tempArray=array.reverse();
+        let newArray = tempArray.toString()
+        console.log(newArray);
+    }
+    function  bai7(){
+        let a = parseInt(prompt('nhap 1 so a:'));
+        let b = parseInt(prompt('nhap 1 so a:'));
+        resultBai7(a,b)
+    }
+    function resultBai8(newArray){
+        let islandArray = newArray.reverse();
+        console.log(islandArray);
+    }
+    function bai8(){
+        let a= parseInt(prompt('nhap so phan tu muon nhap vao mang'))
+        let array = Array();
+        for(let i=0;i<a;i++){
+            array[i] =prompt('phan tu '+ i+' :')
+        }
+        resultBai8(array)
+    }
+    function resultBai9(x,y){
+        let newArray = x.toString();
+        alert(y);
+        let count=0;
+        for (let i in newArray){
+            if(newArray[i]===y){
+                count++;
+            }
+        }
+        if(count===0){
+            console.log('k co')
+        }
+        else {
+            console.log('so luonng',count);
+        }
+    }
+    function bai9(){
+        let a= parseInt(prompt('nhap so phan tu muon nhap vao mang'))
+        let array = Array();
+        for(let i=0;i<a;i++){
+            array[i] =prompt('phan tu '+ i+' :')
+        }
+        let b = prompt('nhap 1 ky tu ban muon tim kiem')
+        resultBai9(array,b)
+    }
+</script>

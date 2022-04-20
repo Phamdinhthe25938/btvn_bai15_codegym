@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+     <button onclick="bai1()">Bai 1</button>
+     <button onclick="bai2(5)">Bai 2</button>
+     <button onclick="bai3()">Bai 3</button>
+     <button onclick="bai4()">Bai 4</button>
+     <button onclick="bai5()">Bai 5</button>
+</body>
+</html>
+<script>
+    function bai1(){
+        alert('xin chao')
+    }
+    function bai2(a){
+        console.log(a+1);
+    }
+    function bai3(){
+           let a= parseInt(prompt("nhap a :"));
+           let b= parseInt(prompt("nhap b:"));
+           nhapBai3(a,b)
+    }
+    function nhapBai3(i,j){
+        if(i>j){
+            alert('toi k bit ban dang nghi j')
+        }else{
+            alert(i+j)
+        }
+    }
+    function addNumbers() {
+        let firstNum = 4;
+        let secondNum = 8;
+        let  result = firstNum + secondNum;
+        return result
+    }
+    function bai4(){
+        addNumbers();
+       let result = 0;
+       alert(result)
+        result = addNumbers();
+        alert(result);
+    }
+    let nameStar=['Polaris','Aldebaran','Deneb','Vega','Altair','Dubhe','Regulus']
+    let nameConstellation = ['Ursa Minor','Tarurus','Cygnus',' Lyra',' Aquila','Ursa Major',' Leo']
+    function  bai5(){
+        let valueImport = prompt("nhap ten 1 ngoi sao")
+        if (ktra(valueImport)){
+            let result = nameConstellation[nameStar.indexOf(valueImport)]
+            console.log(result)
+        }
+        else{
+            console.log('k co trong chuoi')
+        }
+    }
+    function ktra(a){
+        for (let i in nameStar){
+            if(nameStar[i]===a){
+                return true
+            }
+        }
+        return false
+    }
+</script>

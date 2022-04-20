@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f830f1ae-9869-4804-86bf-159a57585f29" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../bai_11/b1/b1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_11/b2/b2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_11/b3/b3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_11/b3/b4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_11/b4/b4_11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_13/BG_hamConcat/BG_hamConcat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_13/BG_hamPush/BG_hamPush.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_13/BG_hamSplice/BG_hamSplice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_13/b1/b1_13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_13/b2/b2_13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_13/b3/b3_13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_13/b4/b4_13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_13/b5/b5_13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_13/b6/b6_13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_14/BD_doi-so/doi_so_ham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_14/th1/th1_14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_14/th2/th2_14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_14/th3/th3_14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b1/b1_15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b2/b2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b2/b3_15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_7/bt_2/bt_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_7/bt_3/bt_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_9/Th_1/Th_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_9/Th_1/Th_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_9/b1/b1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_9/b2/b2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_9/b3/b3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_9/b3/b3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_9/b3/b3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_9/b4/b4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_9/b5/b5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_9/b6/b6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_9/b7/b7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_9/b8/b8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_7/bt_1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_7/bt_1/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="283cf0EQjdwgqdYM3KQ8rBP8I1R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../b2" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f830f1ae-9869-4804-86bf-159a57585f29" name="Changes" comment="" />
+      <created>1650448808961</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650448808961</updated>
+      <workItem from="1650448810152" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
