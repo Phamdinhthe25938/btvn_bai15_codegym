@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./b5_15.css">
+    <style>
+
+    </style>
+</head>
+<body>
+      <div class="content_product">
+          <h2 class="heading_title-add">Add New Product</h2>
+          <div class="add_product">
+              <input type="text" name="" id="input_add-product" placeholder="New product">
+              <input type="url" name="" id="input_imgSrc-product" placeholder="Src image"><br>
+              <button class="add-btn" onclick="btnAdd()">Add</button>
+          </div>
+          <h2 class="heading_title-display">Display All Product</h2>
+          <div class="name_quantity-product">
+              <h3>Product Name</h3>
+              <p class="quantity-product"></p>
+          </div>
+          <div class="display-product"></div>
+      </div>
+</body>
+</html>
+<script>
+       let array = new Array();
+       let x=0;
+       let valueInputName=document.getElementById('input_add-product')
+       let valueInputSrc= document.getElementById('input_imgSrc-product')
+       function btnAdd (){
+           if (valueInputName.value===''&& valueInputSrc.value===''){
+               alert('Looks like you haven entered the data for me!')
+           }
+           else{
+               array[x]=new Array();
+               array[x].push(valueInputName.value,valueInputSrc.value)
+               console.log(array[x]);
+               x++;
+               document.getElementById('input_add-product').value=''
+               document.getElementById('input_imgSrc-product').value=''
+               display()
+       }
+       }
+       function display(){
+           let result='<div>'
+           for (let i=0;i<array.length;i++){
+               result +='<p id="item_product">'+'<i id="name_product">'+array[i][0]+'</i>'
+                   +`<span><img class="img_item" src='${array[i][1]}' alt=""></span>`
+                   +`<button onclick="btnEdit(${i})"  id="edit_product">Edit</button>`
+                   +`<button id="delete_product" onclick='btnDelete(${i})'>Delete</button>`
+                   +'</p>'
+           }
+           result +='</div>'
+           document.querySelector('.display-product').innerHTML=result;
+           document.querySelector('.quantity-product').innerHTML = array.length   + ' product';
+
+       }
+      function btnEdit(index){
+           let a = prompt("Enter the name you want to change:");
+           // console.log(index)
+           array[index][0]=a;
+           let b=prompt("Enter the Src you want to change:")
+          array[index][1]=b
+           display();
+       }
+       function btnDelete(index){
+           array.splice(index,1);
+           x--;
+           display();
+       }
+</script>
