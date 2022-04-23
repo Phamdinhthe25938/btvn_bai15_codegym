@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+
 </body>
 </html>
+<script>
+        function isPalindrome(){
+            for(let i =0;i<a.length/2;i++) {
+                if(a[i]!==a[a.length-i-1]){
+                    return false;
+                }
+            }
+            return true
+        }
+        let a= prompt("nhap vao 1 chuoi");
+        if(isPalindrome()){
+            alert('day la chuoi doi xung')
+        }
+        else{
+            alert('day k la chuoi doi xung')
+        }
+</script>
